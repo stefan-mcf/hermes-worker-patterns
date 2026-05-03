@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import pytest
+
 from worker_patterns.profile_policy import WorkerProfilesPolicy
 from worker_patterns.schemas import PatternLane
 

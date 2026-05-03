@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import yaml
+
 from worker_patterns.schemas import ExecutionMechanism, PatternRequest, WorkerPattern
 from worker_patterns.selector import select_worker_pattern
 

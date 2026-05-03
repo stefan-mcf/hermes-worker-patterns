@@ -1,6 +1,7 @@
 import json
 
 import pytest
+
 from worker_patterns.runtime_tool import worker_pattern_tool, worker_pattern_tool_json
 
 

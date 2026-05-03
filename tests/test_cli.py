@@ -1,6 +1,7 @@
 import json
 
 import pytest
+
 from worker_patterns.cli import main
 
 

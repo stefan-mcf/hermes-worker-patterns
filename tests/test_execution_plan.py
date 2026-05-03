@@ -1,6 +1,7 @@
 import json
 
 import pytest
+
 from worker_patterns.adapter import dry_run_execution_plan
 from worker_patterns.cli import main
 from worker_patterns.execution_plan import render_execution_plan
