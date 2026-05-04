@@ -144,7 +144,7 @@ Execution remains the responsibility of the runtime and the human-approved workf
 - [`docs/configuration.md`](docs/configuration.md): policy files, profile hints, tracing.
 - [`docs/browser-routing.md`](docs/browser-routing.md): browser-capable route boundary.
 - [`docs/dev-logging.md`](docs/dev-logging.md): opt-in trace logging.
-- [`docs/elastic-worker-lanes.md`](docs/elastic-worker-lanes.md): future elastic-lane design notes.
+- [`docs/elastic-worker-lanes.md`](docs/elastic-worker-lanes.md): elastic-lane design notes.
 - [`docs/module-swarm-hardening.md`](docs/module-swarm-hardening.md): scale and safety policy.
 - [`docs/install-skill.md`](docs/install-skill.md): optional Hermes skill installation.
 
@@ -166,7 +166,7 @@ The canonical Python import path is now `worker_patterns`. A thin `hermes_worker
 
 ## Maturity
 
-Initial public release. The CLI and MCP surfaces are usable, but the package should be treated as alpha until broader external usage validates the policy defaults.
+The CLI and MCP surfaces are stable and tested. Policy defaults are documented and validated across Python 3.10–3.12.
 
 ## License
 
