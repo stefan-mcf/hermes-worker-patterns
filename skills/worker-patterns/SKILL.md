@@ -87,6 +87,18 @@ hermes --profile <profile> --skills worker-patterns chat -Q --max-turns 2 -q 'Re
 
 If the marker does not appear with exit code 0, do not launch that lane with those skills. Either fix the profile-local skill store or remove `--skills` and put the required procedure directly in the worker prompt.
 
+## Optimized execution contract
+
+For optimized runs, apply the reusable substrate/collision/closeout contract in `references/execution-substrate-contract.md`.
+
+Minimum closeout wording must distinguish:
+- selected worker-pattern shape;
+- actual execution substrate;
+- mutating owner and collision boundary;
+- persistent workers launched, or explicitly `none`.
+
+Do not let a conceptual `module-swarm` selection imply real persistent worker usage. Only claim persistent workers if named processes were launched, smoke-tested, monitored, and verified with file-backed outputs.
+
 ## Review expectations
 
 - Keep reviewer lanes independent from builder lanes.
